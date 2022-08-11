@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    /* 指定了一个三行三列的网格，列宽和行高都是100px。 */
+    /* grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px; */
+
+    /*  百分比 */
+    /* grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%; */
+
+    /* grid-template-columns: repeat(5, 100px 1fr 0.5fr 400px); */
+
+    /* grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-rows: repeat(2, 100px); */
+
+    /* grid-template-columns: 100px 2fr 1fr 0.5fr; */
+
+
+    /* grid-template-columns: 1fr 1fr minmax(100px, 2fr); */
+
+    /* grid-template-columns: 10px auto 100px; */
+
+    /* grid-template-columns: [c1] 100px [c2] 100px [c3] auto [c4];
+    grid-template-rows: [r1] 100px [r2] 100px [r3] auto [r4]; */
+
+    /* grid-template-columns: repeat(12, 1fr 2fr); */
+
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+    /* grid-gap: 20px */
+
+    /* grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+                        'f f f'
+                        'g h i'; */
+
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-flow: row; */
+
+/* grid-auto-flow: row dense; */
+   /* grid-auto-flow: row dense; */
+   /* justify-items: end; */
+   /* justify-content: end */
+   /* grid-auto-flow: row */
+
+
+   grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-rows: 50px; 
+  }
+  .item1{
+    background-color: red;
+    /* grid-column-start: 1;
+    grid-column-end: 3;  */
+  }
+  .item2{
+    background-color: rebeccapurple;
+    /* grid-column-start: 1;
+    grid-column-end: 3;  */
+  }
+  .item3{
+    background-color: green;
+  }
+  .item4{
+    background-color: gold;
+  }
+  .item5{
+    background-color: palegreen;
+  }
+  .item6{
+    background-color: black;
+  }
+  .item7{
+    background-color: red;
+  }
+  .item8{
+    background-color: rebeccapurple;
+  }
+  .item9{
+    background-color: green;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+  </div>
+  <a href="https://blog.csdn.net/ancartoon/article/details/121514585">参考链接</a>
+</body>
+</html>
